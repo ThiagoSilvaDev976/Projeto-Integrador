@@ -14,7 +14,7 @@
         body{
             background-color: rgb(49, 53, 65);
             color: yellow;
-            /*height: 100vh;*/
+            height: 100vh;
             display: flex;
             flex-direction: column;
         }
@@ -22,7 +22,6 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            /*height: 70vh; /* O SVG ficará centralizado verticalmente na página */
         }
         path:hover{
             fill: yellow;
@@ -35,16 +34,17 @@
             align-items: center;
         }
         .carousel-item {
-            display: flex;
             justify-content: center;
             text-align: center;
             height: 100%; /* Para ocupar toda a altura do rodapé */
         }
-        .carousel-item h5, .carousel-item p {
-            color: white; /* Cor do texto */
-        }
-        footer {
-            background-color: black; /* Cor do rodapé */
+        .footer-carousel {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            background-color: black;
+            padding: 10px 0;
+            box-shadow: 0 -2px 5px rgba(0,0,0,0.1);
         }
     </style>
 </head>
@@ -257,5 +257,31 @@
         </svg>
     </div>
     <!--Carousel-->
+    <div class="footer-carousel">
+        <div id="carouselText" class="carousel slide" data-ride="carousel" data-interval="false">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="row d-flex align-items-center">
+                        <h5 class="mb-0">Últimos Alertas:</h5>
+                        <p class="mb-0 ms-2">[arquivo obtido de banco de dado]</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row d-flex align-items-center">
+                        <h5 class="mb-0">Últimos Alertas:</h5>
+                        <p class="mb-0 ms-2">[arquivo obtido de banco de dado]</p>
+                    </div>
+                </div>
+            </div>            
+            <a class="carousel-control-prev" href="#carouselText" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Anterior</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselText" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Próximo</span>
+            </a>
+        </div>
+    </div>
 </body>
 </html>
