@@ -14,6 +14,9 @@
         body{
             background-color: rgb(49, 53, 65);
             color: yellow;
+            /*height: 100vh;*/
+            display: flex;
+            flex-direction: column;
         }
         .svg-container {
             display: flex;
@@ -25,6 +28,23 @@
             fill: yellow;
             stroke: gold;
             stroke-width: 5;
+        }
+        .carousel {
+            flex-grow: 1;
+            display: flex;
+            align-items: center;
+        }
+        .carousel-item {
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            height: 100%; /* Para ocupar toda a altura do rodapé */
+        }
+        .carousel-item h5, .carousel-item p {
+            color: white; /* Cor do texto */
+        }
+        footer {
+            background-color: black; /* Cor do rodapé */
         }
     </style>
 </head>
