@@ -1,0 +1,25 @@
+body{
+    background-color:azure;
+}
+.svg-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar{
+    background-color: greenyellow;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+path:hover{
+    fill: yellow;
+    stroke: gold;
+    stroke-width: 5;
+}
+
+form{
+    background-color: greenyellow;
+    border: 1px solid #ccc; /* Adiciona uma borda, opcional */
+    border-radius: 10px; /* Ajuste o valor conforme desejado */
+    padding: 20px; /* Opcional: adiciona espaço interno */
+}
