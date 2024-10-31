@@ -7,14 +7,14 @@ body{
     align-items: center;
 }
 .navbar{
-    background-color: lightgreen;
+    background-color: greenyellow;
     text-transform: uppercase;
     font-weight: bold;
 }
 path:hover{
-    fill: greenyellow;
-    stroke: darkgreen;
-    stroke-width: 5;
+    fill: yellow;
+    stroke: darkslategray;
+    stroke-width: 1;
 }
 
 form{
