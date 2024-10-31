@@ -7,18 +7,18 @@ body{
     align-items: center;
 }
 .navbar{
-    background-color: greenyellow;
+    background-color: lightgreen;
     text-transform: uppercase;
     font-weight: bold;
 }
 path:hover{
-    fill: yellow;
-    stroke: gold;
+    fill: greenyellow;
+    stroke: darkgreen;
     stroke-width: 5;
 }
 
 form{
-    background-color: greenyellow;
+    background-color: lightgreen;
     border: 1px solid #ccc; /* Adiciona uma borda, opcional */
     border-radius: 10px; /* Ajuste o valor conforme desejado */
     padding: 20px; /* Opcional: adiciona espaço interno */
