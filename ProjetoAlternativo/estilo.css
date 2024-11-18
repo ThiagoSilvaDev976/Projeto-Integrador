@@ -42,4 +42,9 @@ path:hover{
 
 .container {
     border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.418);
+    color: yellow;
+    text-align: center;
+    padding: 10px 0;
+    font-weight: bold;
 }
