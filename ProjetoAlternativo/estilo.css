@@ -1,6 +1,6 @@
 body{
     background-color: rgb(49, 53, 65);
-    color: yellow;
+    color: #d9ff00;
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -11,8 +11,8 @@ body{
     align-items: center;
 }
 path:hover{
-    fill: yellow;
-    stroke: gold;
+    fill: lightslategrey;
+    stroke: slategray;
     stroke-width: 5;
 }
 .footer-carousel {
@@ -20,7 +20,7 @@ path:hover{
     bottom: 0;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.418);
-    color: yellow;
+    color: #d9ff00;
     text-align: center;
     padding: 10px 0;
     font-weight: bold;
@@ -43,7 +43,7 @@ path:hover{
 .container {
     border-radius: 5px;
     background-color: rgba(0, 0, 0, 0.418);
-    color: yellow;
+    color: #d9ff00;
     text-align: center;
     padding: 10px 0;
     font-weight: bold;
